@@ -105,7 +105,7 @@ st.title("GetPlate")
 st.markdown("Creator:")
 st.markdown("63110116 Thanin Katanyutapant")
 st.markdown("63110117 Intouch Wangtakoondee")
-st.markdown("63110118 Tulatorn Wangtakoondee")
+st.markdown("63110118 Tulatorn Prakitjanuruk")
 imgupload = st.file_uploader("Please upload the picture", type=["png", "jpg", "jpeg"])
 if imgupload is not None:
   image = Image.open(imgupload)
